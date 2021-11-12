@@ -20,9 +20,9 @@
             </p>
             <p style="font-size: x-large">管道得知(可多選)
                 <asp:CheckBoxList ID="cl_Inter" runat="server" RepeatColumns="3" RepeatDirection="Horizontal" RepeatLayout="Flow">
-                    <asp:ListItem Value="B1">網頁廣告</asp:ListItem>
-                    <asp:ListItem Value="B2">電視</asp:ListItem>
-                    <asp:ListItem Value="B3">其他</asp:ListItem>
+                    <asp:ListItem Value="網頁廣告">網頁廣告</asp:ListItem>
+                    <asp:ListItem Value="電視">電視</asp:ListItem>
+                    <asp:ListItem Value="其他">其他</asp:ListItem>
                 </asp:CheckBoxList>
             <p style="font-size: x-large">影片說明
                 <asp:HyperLink ID="HyperLink1" runat="server" ImageUrl="youtube-brands.svg" NavigateUrl="https://www.youtube.com/" Width="30px" Height="30px"></asp:HyperLink>

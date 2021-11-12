@@ -8,11 +8,12 @@ using System.Web.UI.WebControls;
 namespace _110_1Mid {
     public partial class Sample1 : System.Web.UI.Page {
         protected void Page_Load(object sender, EventArgs e) {
-            String V_ser = mt_GenVeriStr();
-            mt_ImgPointer(ref ig_Num, V_ser);
-            hd_Num.Value = mt_2MD5(V_ser);
+            if (!IsPostBack) { 
+                String V_ser = mt_GenVeriStr();
+                mt_ImgPointer(ref ig_Num, V_ser);
+                hd_Num.Value = mt_2MD5(V_ser);
+            }
         }
-
         // To generate a 4 digital number
         public string mt_GenVeriStr() {
             string s_Res = "";
@@ -79,7 +80,6 @@ namespace _110_1Mid {
                 tb_Ps.Attributes.Add("value",temp);
                 tb_Ps.TextMode = TextBoxMode.Password;
             }
-
         }
     }
 }
