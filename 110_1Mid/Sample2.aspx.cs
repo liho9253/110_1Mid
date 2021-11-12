@@ -24,7 +24,7 @@ namespace _110_1Mid {
                     o_li = new ListItem(sa_City[i], sa_City[i]);
                     dd1_City.Items.Add(o_li);
                 }
-            }
+            } 
             if (rd_Des.SelectedValue == "是")
                 tb_Des.Visible = true;
             else { 
