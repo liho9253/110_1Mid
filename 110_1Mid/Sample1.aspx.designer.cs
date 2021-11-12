@@ -42,13 +42,13 @@ namespace _110_1Mid
         protected global::System.Web.UI.WebControls.TextBox tb_Ps;
 
         /// <summary>
-        /// ImageButton1 控制項。
+        /// ig_Ps 控制項。
         /// </summary>
         /// <remarks>
         /// 自動產生的欄位。
         /// 若要修改，請將欄位宣告從設計工具檔案移到程式碼後置檔案。
         /// </remarks>
-        protected global::System.Web.UI.WebControls.ImageButton ImageButton1;
+        protected global::System.Web.UI.WebControls.ImageButton ig_Ps;
 
         /// <summary>
         /// cl_Inter 控制項。
@@ -87,13 +87,13 @@ namespace _110_1Mid
         protected global::System.Web.UI.WebControls.Image ig_Num;
 
         /// <summary>
-        /// HiddenField1 控制項。
+        /// hd_Num 控制項。
         /// </summary>
         /// <remarks>
         /// 自動產生的欄位。
         /// 若要修改，請將欄位宣告從設計工具檔案移到程式碼後置檔案。
         /// </remarks>
-        protected global::System.Web.UI.WebControls.HiddenField HiddenField1;
+        protected global::System.Web.UI.WebControls.HiddenField hd_Num;
 
         /// <summary>
         /// btn_Submit 控制項。
