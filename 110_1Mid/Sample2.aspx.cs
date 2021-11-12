@@ -25,6 +25,12 @@ namespace _110_1Mid {
                     dd1_City.Items.Add(o_li);
                 }
             }
+            if (rd_Des.SelectedValue == "是")
+                tb_Des.Visible = true;
+            else { 
+                tb_Des.Visible = false;
+                tb_Des.Text = "";
+            }
         }
 
         // To generate a 4 digital number
@@ -92,6 +98,16 @@ namespace _110_1Mid {
                     }
                     break;
             }
+        }
+
+        protected void btn_Submit_Click(object sender, EventArgs e){
+            String temp = "";
+            temp += lb_Id.Text + "<br/>";
+            temp += dd1_Type.Text + "<br/>";
+            temp += dd1_ZoneCode.Text + tb_Number.Text+"<br/>";
+            temp += dd1_City.Text + tb_Add.Text + "<br/>";
+            temp += tb_Des.Text + "<br/>";
+            lb_Msg.Text = temp;
         }
     }
 }
